@@ -1,5 +1,5 @@
 name: Deployment
-run.name: testname
+
 on:
   workflow_dispatch:
     inputs:
