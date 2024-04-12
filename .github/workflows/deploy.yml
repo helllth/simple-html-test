@@ -1,12 +1,11 @@
 name: Deployment
 
 on:
-  workflow_dispatch:
-#   push:
-#     branches:
-#       - dev
-#       - omega
-#       - alpha
+    workflow_dispatch:
+      inputs:
+        project-name:
+          description: 'Please enter a project name (Default=Deployment)'
+          required: false
 
 jobs:
 
